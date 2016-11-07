@@ -1,0 +1,4 @@
+#!/bin/bash
+SALT_FIXED=
+PASS_FIXED=
+openssl enc -base64 -aes-256-ecb -S $SALT_FIXED -k $PASS_FIXED

@@ -1,0 +1,5 @@
+[filter "openssl"]
+	smudge = ~/.gitencrypt/smudge
+	clean = ~/.gitencrypt/clean
+[diff "openssl"]
+	textconv = ~/.gitencrypt/diff
